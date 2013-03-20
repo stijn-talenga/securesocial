@@ -8,6 +8,7 @@ target
 logs
 .cache
 bin
+.target
 # IDE and editors
 *~
 .idea
