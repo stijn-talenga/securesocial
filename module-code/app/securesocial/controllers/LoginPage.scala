@@ -24,7 +24,6 @@ import providers.UsernamePasswordProvider
 import providers.utils.RoutesHelper
 import play.Logger
 
-
 /**
  * The Login page controller
  */
