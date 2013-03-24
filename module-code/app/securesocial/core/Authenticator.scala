@@ -100,7 +100,7 @@ class DefaultIdGenerator(app: Application) extends IdGenerator(app) {
   //todo: this needs improvement, several threads will wait for the synchronized block in SecureRandom.
   // I will probably need a pool of SecureRandom instances.
   val random = new SecureRandom()
-  val IdSizeInBytes = 128
+  val IdSizeInBytes = 96
 
   /**
    * Generates a new id using SecureRandom
